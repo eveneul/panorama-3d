@@ -1,0 +1,10 @@
+@mixin border() {
+  border-image: linear-gradient(
+    to right,
+    #9bb7e9 0%,
+    #acdafe 50%,
+    #bdfffe 100%
+  );
+  border-style: solid;
+  border-image-slice: 1;
+}
